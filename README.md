@@ -1,5 +1,5 @@
 # Instruktioner
-.NET 6 krävs och SDK finns att ladda ner här: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+.NET 6 krävs, SDK finns att ladda ner här: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 Klona projektet och starta det genom Visual Studio.
 
