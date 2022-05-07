@@ -1,7 +1,7 @@
 # Instruktioner
 .NET 6 krävs, SDK finns att ladda ner här: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
-Klona projektet och starta det genom Visual Studio.
+Klona projektet och starta det genom Visual Studio. ![bild](https://user-images.githubusercontent.com/71646841/167247713-97237bd4-78e5-4772-8141-76f1a4f90c6c.png)
 
 Anrop görs till http://localhost:3000/count. API't tar emot en textinput i body, använd raw och text i postman.
 
