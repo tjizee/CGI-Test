@@ -9,5 +9,6 @@ Kommando för curl är *curl -d "textinput" -H "Content-Type: text/plain" http:/
 
 Notering: Använder man Windows CMD för curl så verkar inte åäö fungera
 
-![bild](https://user-images.githubusercontent.com/71646841/167213466-ee91bec7-900b-4d72-b488-0a0bb5482cfb.png)
+![bild](https://user-images.githubusercontent.com/71646841/167247356-05649977-2aa7-4f63-890e-d253b7686f79.png)
+
 
