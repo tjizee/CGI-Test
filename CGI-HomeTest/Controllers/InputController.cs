@@ -30,7 +30,24 @@ namespace CGI_HomeTest.Controllers
 
             var sortedList = new List<KeyValuePair<string, int>>(sortedDict.Take(10));
 
-            return JsonConvert.SerializeObject(sortedList).ToString();
+            var str = "{";
+            bool first = true;
+            foreach (var item in sortedList)
+            {
+                if (first)
+                {
+                    str += "\"" + item.Key + "\":" + item.Value;
+                    first = false;
+                }
+                else
+                {
+                    str += ",\"" + item.Key + "\":" + item.Value;
+                }
+                
+            }
+            str += "}";
+
+            return str;
         }
     }
 }
