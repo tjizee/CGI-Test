@@ -1,5 +1,5 @@
 # Instruktioner
-Klona projektet och starta det genom Visual Studio
+Klona projektet och starta det genom Visual Studio. .NET 6 krävs
 
 Anrop görs till http://localhost:3000/count. API't tar emot en textinput i body, använd raw och text i postman.
 
